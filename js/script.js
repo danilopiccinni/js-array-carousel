@@ -26,19 +26,23 @@ anteprime[index].classList.add('active')
 console.log (immagini.length)
 
 frecciaSuEl.addEventListener ('click' , function() {
-
-    if (index == 0) {
-        anteprime[index].classList.remove('active')
-        index = immagini.length
-    }
-
+    
     index--;
+    
+    if (index == -1) {
+        
+        anteprime[0].classList.remove('active');
+        index = immagini.length - 1;
+
+    } else {
+        anteprime[index + 1].classList.remove('active');
+    }
+    
     
     contImgEl.src = immagini[index]
     
     anteprime[index].classList.add('active')
     console.log(index)
-    anteprime[index + 1].classList.remove('active')
     
 }) 
 
