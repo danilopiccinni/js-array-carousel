@@ -1,9 +1,27 @@
+#container {
+    display: flex;
+
+    justify-content: center;
+}
+
 #cont-interfaccia {
     display:flex;
     justify-content: center;
 
+    max-width: 1000px;
+    height: 500px;
+
     position: relative;
+
 }
+
+
+#cont-img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
 
 #freccia-su {
     position: absolute;

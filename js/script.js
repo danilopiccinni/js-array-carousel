@@ -1,4 +1,5 @@
 const immagini = [
+    'img/01.webp', 'img/02.webp' , 'img/03.webp' , 'img/04.webp' , 'img/05.webp' ,
     'https://fastly.picsum.photos/id/530/1000/500.jpg?hmac=VDNut0o4MMrdElr4WzXiLN-PqiI5GlB5bmVwFd_DZ6A',
     'https://fastly.picsum.photos/id/786/1000/500.jpg?hmac=0ADJU0hgDIz9EZeav9xCIzUCN6wxVoc5WuPTEYOQZ74',
     'https://fastly.picsum.photos/id/400/1000/500.jpg?hmac=GhiCnRYFGp-Y-Ib4jUOymPWvj8KQ9RS0XfaGFF7MdXo',
