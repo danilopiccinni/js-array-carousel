@@ -42,3 +42,26 @@
 
 }
 
+#cont-anteprime {
+    position: absolute;
+    right: 0;
+
+    height: 100%;
+
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.anteprime {
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.active {
+    opacity: 1;
+}
+
