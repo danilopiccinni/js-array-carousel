@@ -1,26 +1,25 @@
 #container {
 
-        padding-top: 100px;
     display: flex;
-
     justify-content: center;
+
+    padding-top: 100px;
 }
 
 #cont-interfaccia {
+
     display:flex;
     justify-content: center;
 
     max-width: 1200px;
     max-height: 600px;
 
-
-
     position: relative;
-
 }
 
 
 #cont-img {
+
     width: 100%;
     object-fit: cover;
     max-height: 600px;
@@ -28,60 +27,61 @@
 
 
 #freccia-su {
+
     position: absolute;
     top: 0;
     right: 50%;
     left: 50%;
- 
-
-
 }
 
 #freccia-giu {
+
     position: absolute;
     bottom: 1px;
     right: 50%;
     left: 50%;
-
-
 }
 
 #freccia-giu i,
 #freccia-su i {
-    color: rgb(0, 0, 255);
+
     font-size: 20px;
+    color: rgb(0, 0, 255);
     background-color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 50%;
-    cursor: pointer;
     opacity: 0.5;
+
+    cursor: pointer;
 }
 
 #freccia-giu i:hover,
 #freccia-su i:hover {
+
     opacity: 1;
 }
 
 #cont-anteprime {
+
     position: absolute;
     right: 0;
-
-    height: 100%;
-
-    width: 25%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+    height: 100%;
+    width: 25%;
 }
 
 .anteprime {
+
     object-fit: cover;
     opacity: 0.2;
 }
 
 .active {
+    
     opacity: 1;
 }
 
